@@ -12,7 +12,7 @@ export class Tab1Page implements OnInit {
   ngOnInit() {
     new BlipChat()
       .withAppKey(
-        'd2hhdHNhcHBib3Q2OmQ2MGE0YWZmLTE4YWEtNDYxZi1hMDRmLWRlZmYxNDczZDAzYg=='
+        'YOUR-APP-KEY'
       )
       .withButton({ color: '#7895fd' })
       .build();
